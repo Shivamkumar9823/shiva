@@ -25,7 +25,7 @@
           class="btn"
           id="noButton"
           onmouseover="moveButton()"
-          onclick="moveButton()"
+          onclick="plz()"
         >
           No
         </button>
@@ -46,6 +46,10 @@
                 document.getElementById("noButton").offsetHeight);
             document.getElementById("noButton").style.left = `${x}px`;
             document.getElementById("noButton").style.top = `${y}px`;
+          }
+
+          function plz(){
+                alert("Please!😌");
           }
         </script>
       </div>
