@@ -21,6 +21,7 @@ body {
   position: absolute;
   margin-right: 150px;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 .header_text {
@@ -67,6 +68,7 @@ body {
   border-radius: 12px;
   transition: background-color 0.3s ease;
   box-shadow: 0 3px 3px black;
+
 }
 
 .btn:hover {
