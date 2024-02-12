@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onload="showMessage()">
+  <body>
     <div class="container"> 
       <!-- // audio playing -->
       <audio autoplay loop controls class="shivam">
@@ -31,17 +31,6 @@
         </button>
 
         <script>
-
-function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-  }
-
-  // Function to show message if the user is on a mobile device
-  function showMessage() {
-    if (isMobileDevice()) {
-      document.getElementById('message').style.display = 'block';
-    }
-  }
 
 
           function nextPage() {
